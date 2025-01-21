@@ -1,0 +1,20 @@
+// Colors
+$primary: #8b5cf6;
+$secondary: #ec4899;
+$text-primary: #111827;
+$text-secondary: #a2a2a2;
+
+// Fonts
+$font-sans: 'DM Sans', 'Inter', system-ui, 'Avenir', sans-serif;
+$font-mono: 'Geist Mono', ui-monospace, 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', monospace;
+$font-hand: 'Grape Nuts', 'Caveat', 'Segoe Print', 'Bradley Hand', 'Marker Felt', casual, cursive;
+$font-display: 'IBM Plex Serif', serif;
+
+// Breakpoints
+$breakpoints: (
+        'sm': 640px,
+        'md': 768px,
+        'lg': 1024px,
+        'xl': 1280px,
+        '2xl': 1536px
+);
