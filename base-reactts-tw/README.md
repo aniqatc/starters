@@ -1,50 +1,29 @@
-# React + TypeScript + Vite
+## React TS with Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React TypeScript template using Tailwind CSS and Framer Motion with formatter, linter, PWA, meta tags, and development scripts at the ready.
 
-Currently, two official plugins are available:
+## Features
+- 📝 **Language**: [TypeScript](https://www.typescriptlang.org/) for type safety
+- 🎨 **Styling**: [Tailwind CSS](https://tailwindcss.com/) for utility-first CSS
+- 💫 **Animations**: [Framer Motion](https://www.framer.com/motion/) for smooth animations
+- 🔧 **Build Tool**: [Vite](https://vitejs.dev/) for fast development and optimized builds
+- ✨ **Icons**: [Phosphor Icons](https://phosphoricons.com/) for beautiful, consistent icons
+- 🎯 **Linting**: [ESLint](https://eslint.org/) configured with TypeScript and React best practices
+- 💅 **Formatting**: [Prettier](https://prettier.io/) with Tailwind plugin for consistent code style
+- 🪝 **Git Hooks**: [Husky](https://typicode.github.io/husky/) for pre-commit checks
+- 📱 **PWA Support**: Built-in PWA configuration via [Vite PWA Plugin](https://vite-pwa-org.netlify.app/)
+- 📍 **Path Aliases**: Configured for easy imports (@components, @assets)
+- 🔄 **Development**: [ngrok](https://ngrok.com/) for tunneling
+- 🎯 **Meta Tags**: SEO-ready with OpenGraph and Twitter card support
+- 🌟 **Custom Fonts**: DM Sans, Geist Mono, Grape Nuts, and IBM Plex Serif with Tailwind configuration
+- 🔍 **Type Checking**: TypeScript configuration with strict mode
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Available Scripts
+- `npm start` - Start development server
+- `npm run build` - Build for production (runs type check)
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+- `npm run lint:fix` - Fix ESLint errors
+- `npm run format` - Format code with Prettier
+- `npm run serve` - Start ngrok tunnel
+- `npm run type-check` - Run TypeScript compiler check
