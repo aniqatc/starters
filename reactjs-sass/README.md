@@ -3,14 +3,14 @@
 A modern React template using Sass and Framer Motion with formatter, linter, PWA, meta tags, and development scripts at the ready.
 
 ## Features
-- 🎨 **Styling**: [Sass](https://sass-lang.com/) for enhanced CSS capabilities
-- 💫 **Animations**: [Framer Motion](https://www.framer.com/motion/) for smooth animations
-- 🔧 **Build Tool**: [Vite](https://vitejs.dev/) for fast development and optimized builds
-- ✨ **Icons**: [Phosphor Icons](https://phosphoricons.com/) for beautiful, consistent icons
-- 🎯 **Linting**: [ESLint](https://eslint.org/) configured with React best practices
-- 💅 **Formatting**: [Prettier](https://prettier.io/) for consistent code style
-- 🪝 **Git Hooks**: [Husky](https://typicode.github.io/husky/) for pre-commit checks
-- 📱 **PWA Support**: Built-in PWA configuration via [Vite PWA Plugin](https://vite-pwa-org.netlify.app/)
+- 🎨 **Styling**: [Sass](https://sass-lang.com/) 
+- 💫 **Animations**: [Framer Motion](https://www.framer.com/motion/) 
+- 🔧 **Build Tool**: [Vite](https://vitejs.dev/) 
+- ✨ **Icons**: [Phosphor Icons](https://phosphoricons.com/)
+- 🎯 **Linting**: [ESLint](https://eslint.org/) 
+- 💅 **Formatting**: [Prettier](https://prettier.io/) 
+- 🪝 **Git Hooks**: [Husky](https://typicode.github.io/husky/) 
+- 📱 **PWA Support**: [Vite PWA Plugin](https://vite-pwa-org.netlify.app/)
 - 📍 **Path Aliases**: Configured for easy imports (@components, @assets)
 - 🔄 **Development**: [ngrok](https://ngrok.com/) for tunneling
 - 🎯 **Meta Tags**: SEO-ready with OpenGraph and Twitter card support

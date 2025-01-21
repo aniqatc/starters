@@ -3,15 +3,15 @@
 A modern React TypeScript template using Tailwind CSS and Framer Motion with formatter, linter, PWA, meta tags, and development scripts at the ready.
 
 ## Features
-- 📝 **Language**: [TypeScript](https://www.typescriptlang.org/) for type safety
-- 🎨 **Styling**: [Tailwind CSS](https://tailwindcss.com/) for utility-first CSS
-- 💫 **Animations**: [Framer Motion](https://www.framer.com/motion/) for smooth animations
-- 🔧 **Build Tool**: [Vite](https://vitejs.dev/) for fast development and optimized builds
-- ✨ **Icons**: [Phosphor Icons](https://phosphoricons.com/) for beautiful, consistent icons
-- 🎯 **Linting**: [ESLint](https://eslint.org/) configured with TypeScript and React best practices
-- 💅 **Formatting**: [Prettier](https://prettier.io/) with Tailwind plugin for consistent code style
-- 🪝 **Git Hooks**: [Husky](https://typicode.github.io/husky/) for pre-commit checks
-- 📱 **PWA Support**: Built-in PWA configuration via [Vite PWA Plugin](https://vite-pwa-org.netlify.app/)
+- 📝 **Language**: [TypeScript](https://www.typescriptlang.org/)
+- 🎨 **Styling**: [Tailwind CSS](https://tailwindcss.com/) 
+- 💫 **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- 🔧 **Build Tool**: [Vite](https://vitejs.dev/) 
+- ✨ **Icons**: [Phosphor Icons](https://phosphoricons.com/) 
+- 🎯 **Linting**: [ESLint](https://eslint.org/)
+- 💅 **Formatting**: [Prettier](https://prettier.io/) 
+- 🪝 **Git Hooks**: [Husky](https://typicode.github.io/husky/) 
+- 📱 **PWA Support**: [Vite PWA Plugin](https://vite-pwa-org.netlify.app/)
 - 📍 **Path Aliases**: Configured for easy imports (@components, @assets)
 - 🔄 **Development**: [ngrok](https://ngrok.com/) for tunneling
 - 🎯 **Meta Tags**: SEO-ready with OpenGraph and Twitter card support
