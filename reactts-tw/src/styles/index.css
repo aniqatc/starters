@@ -1,6 +1,12 @@
 @import 'tailwindcss';
 
-@config '../../tailwind.config.js';
+@theme {
+  --font-sans: 'DM Sans', 'Inter', 'system-ui', 'Avenir', 'Helvetica', 'Arial', 'sans-serif';
+  --font-serif: 'IBM Plex Serif', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  --font-mono: 'Geist Mono', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas',
+    'Liberation Mono', 'Courier New', 'monospace';
+  --font-hand: 'Grape Nuts', 'Segoe Print', 'Bradley Hand', 'Marker Felt', 'casual', cursive;
+}
 
 :root {
   @apply font-sans;
