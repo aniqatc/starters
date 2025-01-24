@@ -1,7 +1,10 @@
 import { defineConfig } from 'vite';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -19,7 +22,8 @@ export default defineConfig({
       '@styles': path.resolve(__dirname, 'src/styles'),
       '@contexts': path.resolve(__dirname, 'src/contexts'),
       '@services': path.resolve(__dirname, 'src/services'),
-    }
+      '@pages': path.resolve(__dirname, 'src/pages'),
+    },
   },
   plugins: [
     react(),
