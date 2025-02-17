@@ -26,3 +26,8 @@ Modern React TypeScript template with Tailwind CSS, featuring type safety, forma
 - 🔄 **Development**: [ngrok](https://ngrok.com/)
 - 🎯 **Meta Tags**: SEO-ready
 - 🌟 **Custom Fonts**: DM Sans, Geist Mono, Grape Nuts, IBM Plex Serif
+
+## Todo
+
+- [ ] Add starter for React frontend and Node backend (TypeScript)
+- [ ] Add starter for a full stack application using Next.js (JavaScript/TypeScript)
